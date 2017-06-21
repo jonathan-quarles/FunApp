@@ -1,0 +1,19 @@
+{
+  "name": "funapp",
+  "version": "1.0.0",
+  "description": "This is the precursor to an actual project hopefully.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathan-quarles/FunApp.git"
+  },
+  "author": "Jonathan Quarles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathan-quarles/FunApp/issues"
+  },
+  "homepage": "https://github.com/jonathan-quarles/FunApp#readme"
+}
