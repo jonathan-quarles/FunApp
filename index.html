@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <p>Hi my name is yoyo</p>
+  <button type="button" onclick="request()">Click me!</button>
+  <script>
+  let xmlhttp = new XMLHttpRequest()
+  let holder = document.createElement("p")
+  document.body.appendChild(holder)
+  function request(){
+     
+     
+     xmlhttp.open("GET","http://localhost:8080/*" + prompt("What's the request?"), true)
+
+     xmlhttp.onreadystatechange=function(){
+           if (xmlhttp.readyState==4 && xmlhttp.status==200){
+             holder.innerHTML = (xmlhttp.responseText)
+           }
+     }
+     xmlhttp.send()
+  }
+  
+  </script>
+</body>
+</html>
